@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#whyChooseUs {
+    font-family: 'Roboto';
+    color: #323f4b;
+    font-weight: 600;
+}
+
+#exploreMenu {
+    font-family: 'Roboto';
+    color: #323f4b;
+    font-weight: 600;
+}
+
+#healthyFood {
+    font-family: 'Roboto';
+    color: #323f4b;
+    font-weight: 600;
+}
+
+#deliveryPayment {
+    font-family: 'Roboto';
+    color: #323f4b;
+    font-weight: 600;
+}
+
+#followUs {
+    font-family: 'Roboto';
+    color: #323f4b;
+    font-weight: 600;
+}
+
+.banner-section-bg-container {
+    height: 100vh;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    background-size: cover;
+}
+
+.banner-section-heading {
+    font-weight: 200;
+    color: white;
+    font-size: 45px;
+    font-family: "Roboto"
+
+}
+
+.banner-section-description {
+    font-weight: 300;
+    font-family: "Roboto";
+    color: white;
+    font-size: 30px;
+}
+
+.button-view-menu {
+    color: white;
+    background-color: #d0b200;
+    height: 45px;
+    width: 130px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+
+
+}
+
+.Order-Now {
+    color: #d0b200;
+    background-color: transparent;
+    height: 45px;
+    width: 130px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b200;
+}
+
+.wcus-section {
+    background-color: #f9fbfe;
+}
+
+.wcus-section-heading {
+    color: #183b56;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Roboto";
+
+}
+
+wcus-section-paragraph {
+    color: #5a7184;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.wcus-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+}
+
+.wcus-card-food-service-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcus-card-food-service-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.wcus-card-food-service-paragraph {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #7b8794;
+
+}
+
+.wcus-card-fresh-food-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.wcus-card-fresh-food-paragraph {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #7b8794;
+
+}
+
+.wcus-card-best-offers-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.wcus-card-best-offers-paragraph {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #7b8794;
+}
+
+.best-offers-style {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explr-mnu-section {
+    background-color: white
+}
+
+.explr-mnu-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #183b56;
+    font-size: 28px;
+}
+
+.explr-mnu-section-non-veg-card {
+    border-radius: 16px;
+}
+
+.explr-mnu-non-veg-image {
+    border-radius: 16px;
+}
+
+.explr-mnu-section-non-veg-card-heading {
+    font-size: 18px;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 24px;
+
+}
+
+.explr-mnu-section-non-veg-card-description {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-image {
+    width: 270px
+}
+
+.healthy-food-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    color: #183b56;
+    font-weight: 700;
+
+}
+
+.healthy-food-description {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #5a7184;
+
+}
+
+.healthy-food-button {
+    background-color: #d0b200;
+    color: white;
+    border-radius: 8px;
+    width: 130px;
+    height: 45px;
+    border-width: 0px;
+    margin-right: 10px;
+}
+
+.delivery-payment-section {
+    background-color: white;
+}
+
+.delivery-payment-image {
+    width: 270px;
+}
+
+.delivery-payment-heading {
+    font-family: "Roboto";
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-payment-description {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.delivery-payment-order-button {
+    color: white;
+    background-color: #d0b200;
+    border-radius: 8px;
+    border-width: 0;
+    width: 130px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.delivery-payment-card-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.thank-you-section {
+    background-color: #d0b2001a;
+
+}
+
+.thank-you-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    color: #183b56;
+    font-weight: 700;
+}
+
+.thank-you-description {
+    color: #5a7184;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.thank-you-image {
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.thank-you-button {
+    color: white;
+    background-color: #d0b200;
+    border-radius: 8px;
+    border-width: 0;
+    width: 130px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.followus-heading {
+    color: #183b56;
+    font-size: 28px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: 700;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.followus-icon {
+    border-radius: 40px;
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-top: 25px;
+
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+
+}
+
+.resume-container {
+    width: 960px;
+    margin: 0px auto;
+    padding-right: 5px;
+    padding-left: 1px;
+    background: white;
+
+}
+
+icon {
+    background-color: #F2F2F2;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1px;
+    padding: 6px 0;
+    border-bottom: 2px solid #236FB2;
+
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.Passport-Dinesh {
+    width: 170px;
+    height: 200px;
+}
+
+.my-name {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+}
+
+.my-title {
+    font-size: 24px;
+    color: #236FB2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.far {
+    margin-right: 4px;
+}
+
+.fas {
+    margin-right: 4px;
+}
+
+.fab {
+    margin-right: 4px;
+}
+
+.experience {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.education {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.skills {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.skills-title {
+    padding-top: 10px;
+}
+
+.interests {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.references {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.job {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #236FB2;
+}
+
+.job:last-child {
+    border-bottom: none;
+
+}
+
+.job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.job-comapny {
+    font-weight: bold;
+    color: #236FB2;
+    line-height: 1.2;
+}
+
+.education-details {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    border-bottom: 3px solid #236FB2;
+}
+
+.education-details:last-child {
+    border-bottom: none;
+}
+
+.school-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.school-name {
+    font-weight: bold;
+    color: #236FB2;
+    line-height: 1.2;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    margin-bottom: 1px;
+}
+
+.skills-container ul {
+    margin-left: 2px;
+    list-style-type: disc;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests-container img {
+    height: 35px;
+    opacity: 0.75;
+}
+
+.reference-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.refernce-company-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.more-references {
+    font-size: 18px;
+    font-weight: 600;
+}
